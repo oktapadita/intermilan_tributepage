@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet');
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 100px;
+  background-color: darkblue;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  width: 100%;
+  z-index: 10;
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: yellow;
+}
+
+#main {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+#main h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 12vw;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+  color: white;
+}
+
+#main p {
+  font-size: 30px;
+  margin: 0;
+}
+
+#img-div {
+  background-color: white;
+  padding: 15px
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+}
+
+#tribute-info {
+  width: 800px;
+  margin: 50px auto;
+}
+
+#tribute-info h2 {
+  text-align: center;
+  color: yellow;
+  font-size: 25px;
+}
+
+#tribute-info ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+
+  justify-content: center;
+}
+
+#tribute-info li {
+  width: 150px;
+  height: 200px;
+  margin: 5px;
+}
+
+.team {
+
+  width: 100%;
+  height: auto;
+}
+
+.team .team-img {
+  width: 100%;
+  height: 100%;
+}
+
+.team a {
+  text-decoration: none;
+}
+
+.player-name {
+  font-size: .8em;
+  text-align: center;
+  color: yellow;
+}
+
+.sub-title {
+  color: white;
+  text-align: center;
+}
+
+#follow {
+  text-align: center;
+  background-color: black;
+  padding: 5px 0;
+}
+
+#follow h2 {
+  color: white;
+}
+
+#follow ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#follow li {
+  font-size: 2em;
+  margin: 0 10px;
+}
+
+#follow li a {
+  color: white;
+}
